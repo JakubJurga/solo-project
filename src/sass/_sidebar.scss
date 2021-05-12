@@ -1,0 +1,9 @@
+.sidebar{
+  display: flex;
+  background-color: #1b1b1b;
+  height: 100vh;
+  z-index: 1;
+  top: 0;
+  flex-direction: column;
+  position: sticky;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Solo-project-1</title>
@@ -20,36 +20,194 @@
 
    <div class="main-container">
 
-         <nav id="sidebar">
-             <h1>Just do it <i class="fas fa-bars hamburger"></i></h1>
+         <div class="sidebar">
+           <div class="top-sidebar">
 
-            <ul class="list-unstyled components">
 
-            <li class="active">
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" >General</a>
-            </li>
-            <li>
-                <a href="#">Details</a>
-            </li>
-            <li>
-                <a href="#">Links</a>
-            </li>
-            <li>
-                <a href="#">Banners</a>
-            </li>
-            <li>
-                <a href="#">Personal data</a>
-            </li>
-            <li>
-                <a href="#">Payout</a>
-            </li>
-            <li>
-                <a href="#">Postback</a>
-            </li>
+             <ul>
+            <li><p>Just do it</p></li>
+            <li><a href="#"><i class="fas fa-bars hamburger"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="menu">
+          <ul class="list-unstyled components">
+            <li><a href="#general" class="active"><i class="far fa-star"></i>General</a></li>
+            <li><a href="#details"><i class="fas fa-th-list"></i>Details</a></li>
+            <li><a href="#links"><i class="fas fa-link"></i>Links</a></li>
+            <li><a href="#banners"><i class="fas fa-qrcode"></i>Banners</a></li>
+            <li><a href="#personalData"><i class="far fa-user"></i>Personal data</a></li>
+            <li><a href="#payout"><i class="fas fa-dollar-sign"></i>Payout</a></li>
+            <li><a href="#postback"><i class="fas fa-reply-all"></i>Postback</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope-square"></i>Contact</a></li>
         </ul>
-      </nav>
+      </div>
+      <div class="manager">
+              <h3>YOUR MANAGER</h3>
+              <a href="#" id="manager-button"><img src="images/face.png" alt="manager">Mikhael E.</a>
+            </div>
     </div>
 
+
+  <div class="display-container">
+     <div class="top-bar">
+       <p class="top-bar-sum"><i class="fas fa-wallet"></i>$1,500.00</p>
+       <p class="top-bar-notify"><i class="fas fa-bell"></i></p>
+         <svg width="12" height="12" focusable="true">
+           <circle cx="6" cy="6" r="6" fill="orange">
+         </svg>
+       <p class="top-bar-login"><i class="click fas fa-user-circle"></i>Leonardo DiCaprio</p>
+       <p class="top-bar-logout"><i class="click fas fa-sign-out-alt quit"></i></p>
+     </div>
+
+
+  <div class="layout">
+          <div class="card-container active" id="general">
+            <h3>GENERAL STATISTIC</h3>
+                <div class="date-picker">
+                <div class="date">
+                  <p class="date-start">16-05-2020</p>
+                  <p class="date-finish"><input type="date"></p>
+                </div>
+                <div class="button undo">
+                  <i class="fas fa-undo-alt"></i>
+                </div>
+              </div>
+              <div class="statistics">
+               <div class="statistic-info left">
+                 <div class="details">
+                   <p class="title">Visit Signups</p>
+                   <p class="number">124</p>
+                 </div>
+                 <div class="details">
+                   <p class="title">FTD</p>
+                   <p class="number">445</p>
+                 </div>
+               </div>
+               <div class="statistic-info right">
+                 <div class="details">
+                   <p class="title">Net Deposit</p>
+                   <p class="number">564</p>
+                 </div>
+                 <div class="details">
+                   <p class="title">Turn over</p>
+                   <p class="number">432</p>
+                 </div>
+               </div>
+           </div>
+           <div class="chart">
+              <p class="title">Earnings chart</p>
+              <canvas id="myChart"></canvas>
+            </div>
+
+          </div>
+
+    <div class="card-container" id="links">
+            <h3>LINKS</h3>
+            <div class="links">
+              <div class="button">
+                <p>+ add new</p>
+              </div>
+              <div class="link">
+                <p>Home page</p>
+                <a href="#">http://www.homepage.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="link">
+                <p>Currently offer</p>
+                <a href="#">http://www.currently.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="link">
+                <p>Bulprix</p>
+                <a href="#">http://www.bulprix.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="link">
+                <p>Your Site</p>
+                <a href="#">http://www.yoursite.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="link">
+                <p>Google</p>
+                <a href="#">http://www.google.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="link">
+                <p>Facebook</p>
+                <a href="#">http://www.facebook.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="link">
+                <p>Dashboard</p>
+                <a href="#">http://www.dashboard.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="link">
+                <p>Blurax</p>
+                <a href="#">http://www.blurax.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="link">
+                <p>Piece of wine</p>
+                <a href="#">http://www.pieceofwine.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="link final">
+                <p>Twitter</p>
+                <a href="#">http://www.twitter.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
+              <div class="button">
+                <p>+ add new</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-container" id="personalData">
+              
+
+          </div>
+
+
+        </div>
+
+  </div>
+</div>
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+   <script src="js/script.js"></script>
 
 </body>
 </html>

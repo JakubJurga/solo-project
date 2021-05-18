@@ -1,0 +1,63 @@
+
+
+.top-bar{
+
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  margin: 0;
+  align-items: end;
+  max-height: 55px;
+  border-bottom: 1px solid grey;
+  margin-left: 0px;
+
+  .top-bar-sum{
+    text-align: center;
+  }
+
+  p{
+    margin-left: 10px;
+    padding: 15px 15px;
+    border-left: solid 1px grey;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: medium;
+    color: grey;
+
+    i{
+      font-size: 18px;
+      padding: 0 15px;
+      color: grey;
+      font-weight: medium;
+    }
+
+    .click:hover{
+      cursor: pointer;
+    }
+  }
+
+  .top-bar-login{
+    color: grey;
+    display: inline-flex;
+
+    i{
+      align-self: center;
+    }
+  }
+
+  .top-bar-login:hover{
+    cursor: pointer;
+  }
+
+  .top-bar-sum{
+    font-weight: bolder;
+  }
+
+  svg{
+    position: relative;
+    margin-left: -15px;
+    left: -25px;
+    top: 10px;
+  }
+}

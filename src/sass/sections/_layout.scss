@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     color: #a6a6a6;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     font-weight: 200;
     padding: 20px;
 
@@ -24,7 +24,7 @@
 
 
   h3{
-    font-family: sans-serif;
+    font-family: $font;
     color: black;
     font-weight: 400;
     padding: 20px;
@@ -55,7 +55,7 @@
 
   p{
     display: inline-block;
-    font-family: sans-serif;
+    font-family: $font;
     font-size: 16px;
     padding: 5px 30px 5px 18px;
     margin: 8px 0;

@@ -2,6 +2,9 @@
 
 function toggleMenu(visible) {
   document.querySelector('.menu').classList.toggle('show', visible);
+  document.querySelector('.sidebar').classList.toggle('show', visible);
+  document.querySelector('.manager').classList.toggle('show', visible);
+  document.querySelector('.top-bar1').classList.toggle('show', visible);
 }
 document.querySelector('.hamburger').addEventListener('click', function(e) {
   e.preventDefault();
@@ -39,12 +42,25 @@ function openModal(modal) {
   document.querySelector(modal).classList.add('show');
 }
 
-document.querySelector('.quit').addEventListener('click', function (e) {
+document.querySelector('.quit').addEventListener('click', function () {
   openModal('#myModalQuit');
 });
 
-document.querySelector('.top-bar-login').addEventListener('click', function (e) {
+document.querySelector('.quit1').addEventListener('click', function () {
+  openModal('#myModalQuit');
+});
+
+
+document.querySelector('.top-bar-login').addEventListener('click', function () {
   openModal('#myModalLogin');
+});
+
+document.querySelector('.top-bar-login1').addEventListener('click', function () {
+  openModal('#myModalLogin');
+});
+
+document.querySelector('.popup').addEventListener('click', function () {
+  openModal('#myModalMessage');
 });
 
 var chart1 = document.getElementById('myChart').getContext('2d');

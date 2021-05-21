@@ -42,11 +42,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    border-bottom: solid 1px orange;
+    border-bottom: solid 1px grey;
 
     .name h4{
       font-family: $font;
-      color: orange;
+      color: grey;
       font-weight: 500;
       font-size: 20px;
       margin: 5px 0;
@@ -72,8 +72,8 @@
 
 
 .modal-exit{
-  width: 30%;
-  height: 25%;
+  width: 40%;
+  height: 50%;
 
   .buttons{
     display: flex;
@@ -88,7 +88,7 @@
   }
 
   .cancel{
-    background-color: orange;
+    background-color: grey;
   }
 }
 
@@ -118,8 +118,53 @@
   }
 }
 
+.modal-message{
+  .photo{
+    border-bottom: solid 1px grey;
+    padding: 10px 5px;
+  }
+
+  .convobubble{
+    border-bottom: solid 1px grey;
+    padding: 10px 5px;
+    height: 40vh;
+
+    i{
+      color: grey;
+      font-size: 50px;
+      margin: 10px;
+    }
+  }
+
+  .send-message{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+    .message-text{
+      width: 90%;
+      height: 45px;
+      border: solid 1px grey;
+      border-radius: 5px;
+      font-family: $font;
+      color: black;
+      font-size: 15px;
+      font-weight: 400;
+      padding: 5px;
+      outline: none;
+    }
+  }
+}
+
 .modal.show {
   display: block;
+
+}
+
+.modal-message.show {
+  height: 80%;
 }
 
 .scroll-wrapper {

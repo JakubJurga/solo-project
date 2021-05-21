@@ -1,0 +1,94 @@
+@media(max-width: 830px) {
+    .top-sidebar {
+        i {
+            display: block;
+        }
+        a {
+            text-decoration:none;
+        }
+    }
+    .sidebar{
+        position: fixed;
+        display: inline-block;
+        width: 100%;
+        height:fit-content;
+        overflow-y: auto;
+    }
+    .layout{
+        width:auto;
+    }
+    .display-container{
+      padding-left: 0px;
+    }
+    .top-bar{
+      display: none;
+    }
+}
+
+
+//hamburgerek
+@media(max-width: 830px) {
+    .menu {
+      display: none;
+    }
+    .manager{
+      display: none;
+    }
+    .menu.show {
+      display: block;
+      overflow: auto;
+      }
+
+    .manager.show {
+      display: block;
+    }
+
+    .sidebar.show{
+      height: 100%;
+    }
+
+    .display-container{
+      padding-left: 0px;
+    }
+    .modal-message.show{
+      height: 100%;
+      width: 100%;
+    }
+
+    .modal-enter.show{
+      height: 75%;
+      width: 75%;
+    }
+    .modal-exit.show{
+      height: 75%;
+      width: 75%;
+    }
+
+}
+
+@media(min-width: 830px) and (max-width: 2000px) {
+  .display-container{
+      padding-left: 250px;
+  }
+
+  .top-bar1 {
+      display: none;
+  }
+
+}
+
+@media(min-width: 830px) and (max-width: 1325px) {
+  .modal-message.show{
+    height: 100%;
+    width: 100%;
+  }
+
+  .modal-enter.show{
+    height: 75%;
+    width: 75%;
+  }
+  .modal-exit.show{
+    height: 75%;
+    width: 75%;
+  }
+}

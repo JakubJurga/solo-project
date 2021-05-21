@@ -5,7 +5,7 @@
   color: white;
   text-align: center;
   width: 250px;
-
+  overflow-y: auto;
   position: fixed;
 }
 .menu ul {
@@ -52,6 +52,13 @@
   color: #aaaaaa;
 }
 
+.manager p {
+  font-family: $font;
+  font-size: 16px;
+  color: #56819f;
+  margin-left: 10px;
+}
+
 .top-sidebar{
   padding-top: 20px;
   font-family: "Just Another Hand", cursive;
@@ -82,57 +89,4 @@
     padding-left: 20px;
     display: none;
     color: white;
-}
-
-@media(max-width: 830px) {
-    .top-sidebar {
-        i {
-            display: block;
-        }
-        a {
-            text-decoration:none;
-        }
-    }
-    .sidebar{
-        position: fixed;
-        display: inline-block;
-        width: 100%;
-        height:fit-content;
-        overflow-y: auto;
-    }
-    .layout{
-        width:auto;
-    }
-    .display-container{
-      padding-left: 0px;
-    }
-    .top-bar{
-      position: fixed;
-      top: 100px;
-    }
-}
-
-
-//hamburgerek
-@media(max-width: 830px) {
-    .menu {
-        display: none;
-    }
-    .manager{
-      display: none;
-    }
-    .menu.show {
-        display: block;
-        overflow: auto;
-    }
-
-    .display-container{
-      padding-left: 0px;
-    }
-}
-
-@media(min-width: 830px) and (max-width: 2000px) {
-  .display-container{
-    padding-left: 250px;
-  }
 }

@@ -23,8 +23,8 @@
                   <div class="btn-close js--close-modal"><i class="fas fa-times"></i></div>
                </div>
                <div class="buttons">
-                  <button class="button cancel js--close-modal">Cancel</button>
-                  <button class="button js--close-modal">Quit</button>
+                  <button type="button" class="button cancel js--close-modal">Cancel</button>
+                  <button type="button" class="button js--close-modal">Quit</button>
                </div>
             </div>
             <div class="modal modal-enter" id="myModalLogin">
@@ -36,8 +36,24 @@
                <div class="user-info">
                   <input type="text" placeholder="login name">
                   <input type="password" placeholder="password">
-                  <button class="button js--close-modal">Enter</button>
+                  <button type="button" class="button js--close-modal">Enter</button>
                </div>
+            </div>
+            <div class="modal modal-message" id="myModalMessage">
+              <div class="header">
+                <div class="name"><h4>ONLINE CHAT WITH YOUR PERSONAL MANAGER</h4></div>
+                <div class="btn-close js--close-modal"><i class="icon-close icon"></i></div>
+              </div>
+              <div class="photo">
+                <img src="images/face.png" alt="Your manager">
+              </div>
+              <div class="convobubble">
+                <i class="fas fa-comment-dots"></i>
+              </div>
+              <div class="send-message">
+                <textarea class="message-text" name="message" placeholder="Enter the message..."></textarea>
+                <button type="button" class="button">Send</button>
+              </div>
             </div>
          </div>
          <div class="sidebar">
@@ -46,7 +62,7 @@
                   <li>
                      <p>Just do it</p>
                   </li>
-                  <li><a href="#"><i class="fas fa-bars hamburger"></i></a></li>
+                  <li><a href="#" aria-label="lorem ipsum"><i class="fas fa-bars hamburger"></i></a></li>
                </ul>
             </div>
             <div class="menu">
@@ -63,7 +79,14 @@
             </div>
             <div class="manager">
                <h3>YOUR MANAGER</h3>
-               <a href="#" id="manager-button"><img src="images/face.png" alt="manager">Mikhael E.</a>
+               <a href="#" id="manager-button"><img class="popup" src="images/face.png" alt="manager"><p class="popup">Mikhael E.</p></a>
+            </div>
+            <div class="top-bar1">
+               <p class="top-bar-sum1"><i class="fas fa-wallet"></i>$1,500.00</p>
+               <p class="top-bar-notify1"><i class="fas fa-bell"></i></p>
+               
+               <p class="top-bar-login1"><i class="click fas fa-user-circle"></i>Leonardo DiCaprio</p>
+               <p class="top-bar-logout1"><i class="click fas fa-sign-out-alt quit1"></i></p>
             </div>
          </div>
          <div class="display-container">

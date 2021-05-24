@@ -1,1 +1,1 @@
-# solo-project
+https://jakubjurga.github.io/solo-project/

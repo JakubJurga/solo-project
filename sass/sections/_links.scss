@@ -1,0 +1,75 @@
+.link{
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-size: 18px;
+  font-family: $font;
+
+  p, a, i{
+    margin: 0;
+    padding: 0;
+  }
+  h3 {
+    color: grey;
+    text-align: center;
+  }
+
+  p{
+    color: grey;
+    font-weight: bolder;
+    width: 40%;
+  }
+
+  a{
+    color: grey;
+    text-decoration: none;
+    width: 50%;
+    cursor: default;
+  }
+
+  i{
+    color: grey;
+    font-size: 16px;
+  }
+
+  .icon-links{
+    color: grey;
+    padding-right: 25px;
+  }
+
+  .icons {
+    display: none;
+  }
+}
+
+.icons i{
+  margin-right: 15px;
+}
+
+.icons i:hover{
+  color: orange;
+}
+
+.link.final{
+  border-bottom: 1px solid grey;
+}
+
+.link:hover{
+  background-color: silver;
+
+  .icons {
+    display: inherit;
+
+    i:hover{
+      font-size: 20px;
+      cursor: default;
+    }
+  }
+}
+
+.links .button{
+  min-width: 150px;
+}

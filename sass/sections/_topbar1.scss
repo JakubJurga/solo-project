@@ -1,0 +1,60 @@
+.top-bar1.show{
+  display: flex;
+}
+
+.top-bar1{
+
+  width: 100%;
+  display: none;
+  justify-content: center;
+  background-color: inherit;
+  margin: 0;
+  align-items: end;
+  max-height: 40px;
+
+  margin-left: 0px;
+
+  .top-bar-sum1{
+    text-align: center;
+  }
+
+  p{
+    margin-left: 2px;
+    padding: 5px 5px;
+
+    font-size: 10px;
+    font-family: $font;
+    font-weight: medium;
+    color: grey;
+
+    i{
+      font-size: 10px;
+      padding: 0 5px;
+      color: grey;
+      font-weight: medium;
+    }
+
+    .click:hover{
+      cursor: pointer;
+    }
+  }
+
+  .top-bar-login1{
+    color: grey;
+    display: inline-flex;
+
+    i{
+      align-self: center;
+    }
+  }
+
+  .top-bar-login1:hover{
+    cursor: pointer;
+  }
+
+  .top-bar-sum1{
+    font-weight: bolder;
+  }
+
+
+}

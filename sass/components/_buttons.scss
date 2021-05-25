@@ -1,0 +1,26 @@
+.button {
+    background-color: #f58220;
+    color: white;
+    border-radius: 5px;
+    width: 12%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.button.undo{
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.button.save{
+  background-color: #f58220;
+  color: white;
+  border-radius: 5px;
+  width: 30%;
+  margin: 40px auto;
+  text-align: center;
+}

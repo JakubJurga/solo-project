@@ -1,0 +1,92 @@
+.sidebar {
+  width: fit-content;
+  background-color: #1b1b1b;
+  height: 100%;
+  color: white;
+  text-align: center;
+  width: 250px;
+  overflow-y: auto;
+  position: fixed;
+}
+.menu ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+.menu {
+    li{
+        padding: 5px 0;
+    }
+    li:hover {
+        background-color: grey;
+        border-left: solid 5px #f58220;
+    }
+}
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: #aaaaaa;
+  font-family: $font;
+  font-size: 18px;
+  margin: 0 15px 0px 15px;
+  padding: 10px;
+    &.active {
+        color: orange;
+    }
+}
+.menu i {
+    padding-right: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+.sidebar h1 i {
+    font-size: 25px;
+    margin-left: 40px;
+    color: #e4e4e2;
+  }
+
+.manager h3 {
+  font-family: $font;
+  font-size: 18px;
+  color: #aaaaaa;
+}
+
+.manager p {
+  font-family: $font;
+  font-size: 16px;
+  color: #56819f;
+  margin-left: 10px;
+}
+
+.top-sidebar{
+  padding-top: 20px;
+  font-family: "Just Another Hand", cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.top-sidebar p{
+  font-size: 50px;
+}
+.top-sidebar ul {
+    font-size: 20px;
+    padding-left: 5px;
+    list-style-type: none;
+    color: white;
+
+}
+.top-sidebar li {
+    display: inline-block;
+    padding-right: 0px;
+    margin-right: 0px;
+    position: relative;
+}
+.top-sidebar li a i:hover {
+    color: orange;
+}
+.top-sidebar i {
+    padding-left: 20px;
+    display: none;
+    color: white;
+}

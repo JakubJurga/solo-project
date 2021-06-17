@@ -556,6 +556,10 @@ html {
   color: white;
 }
 
+img {
+  width: 50px;
+}
+
 .link {
   display: flex;
   flex-direction: row;
@@ -920,7 +924,7 @@ html {
 
 .modal-exit {
   width: 40%;
-  height: 50%;
+  height: 20%;
 }
 
 .modal-exit .buttons {
@@ -1008,7 +1012,7 @@ html {
 }
 
 .modal-message.show {
-  height: 80%;
+  height: 70%;
 }
 
 .scroll-wrapper {
@@ -1033,7 +1037,7 @@ html {
     position: fixed;
     display: inline-block;
     width: 100%;
-    height: 28%;
+    height: 22%;
     overflow-y: auto;
   }
   .layout {
@@ -1045,6 +1049,19 @@ html {
   }
   .top-bar {
     display: none;
+  }
+  .menu li {
+    padding: 0px;
+  }
+  .menu a {
+    font-size: 15px;
+    padding: 0px;
+  }
+  .manager h3 {
+    font-size: 15px;
+  }
+  .manager p {
+    font-size: 12px;
   }
 }
 
@@ -1063,13 +1080,13 @@ html {
     display: block;
   }
   .sidebar.show {
-    height: 100%;
+    height: 85%;
   }
   .display-container {
     padding-left: 0px;
   }
   .modal-message.show {
-    height: 100%;
+    height: 80%;
     width: 100%;
   }
   .modal-enter.show {
@@ -1077,7 +1094,7 @@ html {
     width: 75%;
   }
   .modal-exit.show {
-    height: 75%;
+    height: 35%;
     width: 75%;
   }
   .modal .header .name h4 {
@@ -1097,6 +1114,12 @@ html {
   }
   .modal-enter .user-info .button {
     width: 40%;
+  }
+  .personal-data .form-data {
+    width: 90%;
+  }
+  .top-sidebar p {
+    font-size: 30px;
   }
 }
 
@@ -1119,7 +1142,7 @@ html {
     width: 75%;
   }
   .modal-exit.show {
-    height: 75%;
+    height: 35%;
     width: 75%;
   }
 }

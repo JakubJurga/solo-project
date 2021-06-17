@@ -11,7 +11,7 @@
         position: fixed;
         display: inline-block;
         width: 100%;
-        height: 28%;
+        height: 22%;
         overflow-y: auto;
     }
     .layout{
@@ -23,6 +23,23 @@
     }
     .top-bar{
       display: none;
+    }
+
+    .menu li {
+      padding: 0px;
+    }
+
+    .menu a {
+      font-size: 15px;
+      padding: 0px;
+    }
+
+    .manager h3 {
+      font-size: 15px;
+    }
+
+    .manager p {
+      font-size: 12px;
     }
 }
 
@@ -45,14 +62,14 @@
     }
 
     .sidebar.show{
-      height: 100%;
+      height: 85%;
     }
 
     .display-container{
       padding-left: 0px;
     }
     .modal-message.show{
-      height: 100%;
+      height: 80%;
       width: 100%;
     }
 
@@ -61,7 +78,7 @@
       width: 75%;
     }
     .modal-exit.show{
-      height: 75%;
+      height: 35%;
       width: 75%;
     }
 
@@ -86,7 +103,16 @@
     }
     .modal-enter .user-info .button {
     width: 40%;
-}
+    }
+
+    .personal-data .form-data {
+      width: 90%;
+    }
+
+
+    .top-sidebar p {
+      font-size: 30px;
+    }
 
 }
 
@@ -112,7 +138,7 @@
     width: 75%;
   }
   .modal-exit.show{
-    height: 75%;
+    height: 35%;
     width: 75%;
   }
 }
